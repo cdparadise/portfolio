@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#606666;
+}
+
+#navbar {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    right: 10%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: top;
+    transition-duration: 3s, 2s;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Lilita One', cursive;
+    font-weight: 300;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #1982facc;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color: #1a1a1a00;
+    color: #fff;
+    padding-top: 8%;
+}
+
+h2 {
+    padding-top: 60px;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(81, 209, 177);
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(81, 209, 177);
+    padding: 20px 20px;
+}
+
+h3 a {
+    color: #1982facc;
+}
+
+h1 a {
+    color: rgb(0, 253, 190);
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+    font-weight: 300;
+}
+
+h1 a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #1982facc;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+
+h1 a:hover::after {
+    width: 100%;
+
+}
+
+.container {
+    padding-top: 2%;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.feature-img {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.game-logo {
+    padding-bottom: 600px;
+}
+
+.small-img-row {
+    display: flex;
+    background: #efefefd0;
+    margin: 20px 0;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.small-img-row p {
+    padding: 50px 35px;
+    align-items: center;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+
+.small-img {
+    position: relative;
+}
+
+.play-btn {
+    width: 40px;
+    position: absolute;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.video-player {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+    display: none;
+}
+
+video:focus {
+    outline: none;
+}
+
+.back-btn {
+    position: absolute;
+    top: 30px;
+    width: 30px;
+    left: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#footer {
+    padding: 3% 0 .5%;
+    text-align: center;
+    background-color: #080808;
+    color: #6db1fd;
+    line-height: 2.5;
+    font-family: 'Lilita One', cursive;
+}
+
+.footer-icons {
+    font-size: 2rem;
+    width: 4%;
+    color: #6db1fd;
+
+}
+
+.footer-icons:hover {
+    color: #077bffcc;
+}
+
+#footer p:hover {
+    color: #077bffcc;
+}
+
+.top {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.top a {
+    font-family: 'Lilita One', cursive;
+    color: #fff;
+}
+
+.top a:visited {
+    text-decoration: none;
+}

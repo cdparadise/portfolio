@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lerone Ayuso</title>
+
+                        <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+                        <!-- Local CSS Stylesheet -->
+  <link rel="stylesheet" href="static/css/styles.css">
+  <script src="static/js/scripts.js"></script>
+  <link rel="icon" href="favicon.ico">
+                          <!-- CSS Stylesheets -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+                          <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Martian+Mono&family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/635f176eb7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+                                    <!-- SECTION 1 -->
+
+<section>
+
+<img src="static/images/cropped pic.png" class="pro-pic">
+ 
+<div id="header">
+    <img src="static/images/typing.png" class="keyboard" alt="keyboard">
+    <div class="container-fluid">
+      <nav id="navbar" class="navbar navbar-dark navbar-expand-lg"> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#projects">Portfolio</a></li>
+          <li class="nav-item"><a href="#footer">Socials</a></li>
+        </ul>
+        </div>
+      </nav>
+      <div class="container">
+      <span id="intro" class="text"><h2>print("<span>I'm Lerone</span>, a Junior Python Developer.")</h2></span>
+      </div>
+    </div>
+  </div>
+  </section>
+
+                                    <!-- ABOUT 1 -->
+
+<section>
+
+<div id="about" style="background-image: url('static/images/Galaxy.jpg')">
+
+  <h1>About</h1>
+  <a href="#about"></a>
+  <div class="container-fluid">
+    <div class="row">
+ 
+      <div class="about-box col-lg-4 col-md-4">
+        <i class="fa-solid fa-basketball"></i>
+        <h3>Love Basketball</h3>
+        <p>I'm not as good as I use to be, but I'm always ready for a 1v1</p>
+      </div>
+  
+      <div class="about-box col-lg-4 col-md-4">
+        <i class="fa-solid fa-keyboard"></i>
+        <h3>Techy</h3>
+        <p>From the smallest to the largest, technology never ceases to amaze</p>
+      </div>
+  
+      <div class="about-box col-lg-4 col-md-4">
+        <i class="fa-solid fa-gamepad"></i>
+        <h3>Avid Gamer</h3>
+        <p>Let's just say, I'm competitive both on and off the court 😈</p>
+      </div>
+
+      <div class="about-box col-lg-4 col-md-4">
+      <i class="fa-solid fa-dumbbell"></i>
+        <h3>Fitness is IMPORTANT</h3>
+        <p>I always do my best to hit the gym. Staying in shape remains a priority.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ </section>
+
+
+
+                                    <!-- PORTFOLIO -->
+
+
+<section id="projects">
+
+<h1><a href="{{ url_for('portfolio_page') }}"><button>Portfolio</button></a></h1>
+
+<div id="projectCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#projectCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="static/images/Profile Site.png" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Profile Site!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Pong.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>PONG!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Snake Game.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>SNAKE!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Pomodoro.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pomodoro Timer!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Flash Card.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Flash Card!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Kanye West Flash Card.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Kanye Quotes!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Password Manager.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Password Manager!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Blog.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Blog Website!</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="static/images/Quiz Game.jpg" class="project-image d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Quiz Game!</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#projectCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#projectCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
+</section>
+
+
+<div class="top">
+  <a href="#header">Back to Top</a>
+</div>
+
+
+  <!-- Footer -->
+ 
+  
+  <footer id="footer" style="background-image: url('static/images/Galaxy.jpg')">
+
+
+    <a href="https://twitter.com/BzLer501"><i class="footer-icons fa-brands fa-twitter"></i></a>
+    <a href="https://www.facebook.com/lerone.ayuso"><i class="footer-icons fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/ler_501/"><i class="footer-icons fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/lerone-ayuso-4a3b231b1/"><i class="footer-icons fa-brands fa-linkedin"></i></a>
+    <p>© Copyright 2023 Lerone's Portfolio</p>
+  
+  </footer>
+
+
+</body>
+
+</html>

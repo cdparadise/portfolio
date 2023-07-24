@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lerone Ayuso</title>
+
+                        <!-- Local CSS Stylesheet -->
+  <link rel="stylesheet" href="static/css/port_styles.css">
+  <script src="static/js/scripts.js"></script>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Martian+Mono&family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet"> <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/635f176eb7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-image: url('static/images/Galaxy.jpg')">
+
+                                    <!-- SECTION 1 -->
+
+<div id="header">
+  <div class="container">
+    <nav id="navbar">
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('home', _anchor='about') }}">About</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#footer">Socials</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+  <h1><a href="">Portfolio</a></h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="feature-img">
+          <img src="static/images/Games Logo.png" width="100%" class="game-logo">
+          <img src="static/images/python.png" width="100%">
+      </div>
+    </div>
+      <div class="col">
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="static/images/Pong.jpg" width="175px" height="100%">
+            <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Pong.mp4')">
+          </div>
+          <p>Using the Turtle Module, Pong was made show how creative and fun Python can be.</p>
+        </div>
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="static/images/Snake Game.jpg" width="175px" height="100%">
+            <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Snake.mp4')">
+          </div>
+          <p>Similar to Pong, Snake was created with more layers to the code using various custom classes for the Scoreboard, Food for the Snake itself. It also utilized saving text to record High Score.</p>
+        </div>
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="static/images/Turtle Game.jpg" width="175px" height="100%">
+            <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Turtle.mp4')">
+          </div>
+          <p>This race game was created with the Turtle Module and the use of the Random function for a short and fun entertainment.</p>
+        </div>
+        <div class="small-img-row">
+          <div class="small-img">
+           <img src="static/images/U.S. State Game.jpg" width="175px" height="100%">
+           <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/US States Game.mp4')">
+        </div>
+        <p>The U.S. State Game project mimics Sporcle's U.S. Quiz game using the Turtle Module and Panda's flexibility of data manipulation and analysis.</p>
+        </div>
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="static/images/Password Manager.jpg" width="175px" height="100%">
+            <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Password Mngr.mp4')">
+          </div>
+            <p>A Password Manager was created using the Tkinter Module and having a basic Json file for data storage.</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="static/images/Flash Card.jpg" width="175px" height="100%">
+              <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Flash Card.mp4')">
+            </div>
+            <p>The Flash Card Game was created using the Tkinter Module along with Pandas for an awesome learning/memory application.</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="static/images/Kanye West Flash Card.jpg" width="175px" height="175px">
+              <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Kanye Video.mp4')">
+            </div>
+            <p>Just like the Flash Card game, the Kanye West application was made using Tkinter and the Requests module for an API call.</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="static/images/Quiz Game.jpg" width="175px" height="175px">
+              <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Quiz Game.mp4')">
+            </div>
+            <p>Another cool Tkinter project created with the Requests module, the Quiz game makes you want to create your own Trivia Game for family and friends.</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="static/images/Cafe Database.jpg" width="175px" height="100%">
+              <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Cafe Database_1.mp4')">
+            </div>
+            <p>HTML, CSS, Bootstrap, WTForms and CSV were all combined to design and bring this Cafe Website to life.</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="static/images/Blog.jpg" width="175px" height="100%">
+              <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Blog Website.mp4')">
+            </div>
+            <p>Blog Website was created with a combination of HTML, CSS, and various modules such as Flask, WTForms and SQLAlchemy to create a powerful site that can Register and Login users and administrator. It also has a Contact form and backend Database for users which includes password encryption.</p>
+          </div>
+          <div class="small-img-row">
+          <div class="small-img">
+            <img src="static/images/Data Analyst.jpg" width="175px" height="100%">
+            <img src="static/images/play-btn.jpg" class="play-btn" onclick="playVideo('static/videos/Data Analysis.mp4')">
+          </div>
+          <p>One of the most Analytical projects, the power of Jupyter Notebooks came into full effect to analyze the housing data of Boston Massachusetts in the 1970s!</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+      <video id="myVideo" width="100%" controls autoplay src="" type="video/mp4"></video>
+      <img src="static/images/back-btn.jpg" class="back-btn" onclick="stopVideo()">
+    </div>
+
+    <script>
+      var videoPlayer = document.getElementById("videoPlayer");
+      var myVideo = document.getElementById("myVideo");
+
+      function stopVideo() {
+
+        videoPlayer.style.display = "none";
+
+      }
+
+      function playVideo(file) {
+
+        myVideo.src = file;
+        videoPlayer.style.display = "block"
+
+      }
+    </script>
+
+<div>
+  <h2>Special Thanks to Dr. Angela Yu for putting such a powerful Bootcamp together.</h2>
+  <h3>For a full reference of the topics I covered, feel free to visit <a href="https://www.udemy.com/course/100-days-of-code/">https://www.udemy.com/course/100-days-of-code/.</a></h3>
+</div>
+
+
+<div class="top">
+  <a href="#header">Back to Top</a>
+</div>
+
+  <footer id="footer">
+  
+    <a href="https://twitter.com/BzLer501"><i class="footer-icons fa-brands fa-twitter"></i></a>
+    <a href="https://www.facebook.com/lerone.ayuso"><i class="footer-icons fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/ler_501/"><i class="footer-icons fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/lerone-ayuso-4a3b231b1/"><i class="footer-icons fa-brands fa-linkedin"></i></a>
+    <p>© Copyright 2023 Lerone's Portfolio</p>
+  
+  </footer>
+
+  </body>
